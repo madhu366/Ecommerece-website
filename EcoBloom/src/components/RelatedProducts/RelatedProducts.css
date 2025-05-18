@@ -1,0 +1,55 @@
+.relatedproducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-aligns the items */
+  padding: 20px;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.relatedproducts h1 {
+  font-family: 'Montserrat', sans-serif; /* Use your chosen font */
+  font-size: 2.5em; /* Increase the font size */
+  margin-bottom: 20px; /* Space below the title */
+  color: #2c3e50; /* Dark color for the title */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  letter-spacing: 1px; /* Spacing between letters */
+  font-weight: bold; /* Bold text for prominence */
+  text-align: center; /* Center text */
+}
+
+.relatedproducts-item {
+  display: flex;
+  justify-content: center; /* Center-align items in the row */
+  flex-wrap: nowrap; /* Keep all items in a single row */
+  width: 100%; /* Full width of the parent */
+  padding: 0; /* Remove padding to prevent overflow */
+  box-sizing: border-box;
+  margin-top: 20px; /* Space between the title and items */
+}
+
+.relatedproducts-item .item {
+  width: 150px; /* Set width for individual items */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within items */
+  margin: 0 5px; /* Space between items */
+}
+
+.item img {
+  width: 100%; /* Set width to 100% of the item container */
+  height: 150px; /* Fixed height to make the image square */
+  object-fit: cover; /* Ensure images cover the space without distortion */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Hide the scrollbar for a cleaner look */
+.relatedproducts-item::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers */
+}
+
+/* Ensure no horizontal overflow */
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scroll on the entire page */
+}

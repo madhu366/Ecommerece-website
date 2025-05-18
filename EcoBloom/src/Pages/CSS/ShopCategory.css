@@ -1,0 +1,55 @@
+/* Navbar styles */
+.navbar {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove padding if any */
+}
+
+/* Banner styles */
+.shopcategory-banner {
+    display: block;
+    margin: 0; /* Remove margin to eliminate gap */
+    width: 100%; /* Make banner full width */
+    height: 350px; /* Increased height for better visibility */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0 20px; /* Less aggressive margins */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-indexSort p span {
+    font-weight: 600;
+}
+
+.shopcategory-products {
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow wrapping to a new row */
+    justify-content: center; /* Center items */
+    gap: 20px; /* Space between items */
+    margin: 20px auto; /* Center the grid */
+    max-width: 1200px; /* Max width for centering */
+    padding: 0 10%; /* Adjust padding for edges */
+}
+
+.shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}

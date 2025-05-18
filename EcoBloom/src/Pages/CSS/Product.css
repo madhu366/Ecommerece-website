@@ -1,0 +1,39 @@
+.app-description {
+    margin: 40px 170px; /* Margins for spacing */
+    padding: 20px;      /* Padding for internal spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #d0d0d0; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .app-description h2 {
+    font-size: 24px; /* Font size for the heading */
+    color: #3d3d3d; /* Dark color for the heading */
+    margin-bottom: 15px; /* Spacing below heading */
+    border-bottom: 2px solid #FF4141; /* Underline effect */
+    padding-bottom: 5px; /* Padding below heading */
+  }
+  
+  .app-description p {
+    font-size: 16px; /* Font size for the paragraph */
+    color: #555; /* Darker color for text */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  
+  /* Optional: Add responsive styling */
+  @media (max-width: 768px) {
+    .app-description {
+      margin: 20px; /* Adjust margins for smaller screens */
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .app-description h2 {
+      font-size: 20px; /* Smaller font size for heading on mobile */
+    }
+  
+    .app-description p {
+      font-size: 14px; /* Smaller font size for paragraph on mobile */
+    }
+  }
+  

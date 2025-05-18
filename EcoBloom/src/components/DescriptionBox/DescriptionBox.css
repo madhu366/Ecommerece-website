@@ -1,0 +1,44 @@
+.descriptionbox {
+    margin: 60px 170px; /* Reduced top margin for a more compact look */
+}
+
+.descriptionbox-navigator {
+    display: flex;
+    border-bottom: 1px solid #D0D0D0; /* Added bottom border for separation */
+}
+
+.descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 50px; /* Reduced height for a more compact look */
+    border: 1px solid #d0d0d0;
+    cursor: pointer; /* Change cursor to indicate clickable items */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.descriptionbox-nav-box:hover {
+    background: #f0f0f0; /* Add a hover effect for better interactivity */
+}
+
+.descriptionbox-nav-box.fade {
+    background: #FBFBFB;
+    color: #555;
+}
+
+.descriptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #D0D0D0;
+    padding: 30px; /* Reduced padding for a more compact look */
+    border-radius: 5px; /* Added border-radius for a softer edge */
+}
+
+.descriptionbox-description p {
+    font-size: 14px; /* Adjust font size for better readability */
+    line-height: 1.5; /* Increase line height for better spacing between lines */
+}

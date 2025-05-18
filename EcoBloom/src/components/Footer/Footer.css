@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjusted gap between footer elements */
+    padding: 15px 0; /* Reduced padding for spacing */
+    background-color: #f8f8f8; /* Optional: background color for contrast */
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Reduced gap between logo and text */
+}
+
+.footer-logo img {
+    width: 70px; /* Further reduced logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-logo p {
+    color: #383838;
+    font-size: 20px; /* Reduced font size */
+    font-weight: 700;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Reduced gap between links */
+    color: #252525;
+    font-size: 14px; /* Reduced font size */
+}
+
+.footer-links li {
+    cursor: pointer;
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 10px; /* Reduced gap between icons */
+}
+
+.footer-icons-container img {
+    width: 25px; /* Further reduced icon size */
+    height: 25px; /* Ensured height matches */
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Reduced gap */
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 12px; /* Reduced font size */
+}
+
+.footer-copyright hr {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 2px; /* Kept line height */
+    background: #c7c7c7;
+}

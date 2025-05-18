@@ -1,0 +1,48 @@
+.items-container {
+  display: flex;               /* Use flexbox for alignment */
+  justify-content: space-between; /* Space items evenly */
+  flex-wrap: wrap;            /* Allow wrapping to the next line if needed */
+  gap: 20px;                  /* Gap between items */
+}
+
+.item {
+  width: 200px;               /* Set a fixed width for items (change to 200px for square) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* Center items in the flex container */
+}
+
+.item h3 {
+  margin: 10px 0;             /* Add some margin for headings */
+}
+
+.item-prices {
+  display: flex;              /* Flexbox for prices */
+  gap: 10px;                  /* Space between prices */
+}
+
+.item-price-new {
+  color: #374151;             /* Dark color for the new price */
+  font-size: 16px;            /* Set font size for the new price */
+  font-weight: 600;           /* Bold weight for emphasis */
+}
+
+.item-price-old {
+  color: #8c8c8c;             /* Grey color for the old price */
+  font-size: 16px;            /* Set font size for the old price */
+  font-weight: 600;           /* Bold weight for emphasis */
+  text-decoration: line-through; /* Strikethrough effect */
+}
+
+/* Hover effect for items */
+.item:hover {
+  transform: scale(1.05);     /* Slightly scale the item on hover */
+  transition: 0.6s;            /* Smooth transition effect */
+}
+
+.item img {
+  width: 100%;                /* Ensures the image takes the full width of its container */
+  height: 200px;              /* Set a fixed height to maintain rectangle shape */
+  object-fit: cover;          /* Ensure the image covers the space without distortion */
+  border-radius: 10px;        /* Optional: Adds rounded corners */
+}

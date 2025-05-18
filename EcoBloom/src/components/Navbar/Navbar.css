@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  background-color: #ffffff; /* Light background for consistency */
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.nav-logo p {
+  color: #1a237e; /* Deep blue for better readability */
+  font-size: 26px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  color: #5c6bc0; /* Muted blue for menu items */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li:hover {
+  color: #3949ab; /* Slightly darker blue on hover */
+}
+
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #3949ab; /* Blue underline */
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  width: 140px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #5c6bc0; /* Matches nav item color */
+  border-radius: 75px;
+  color: #3949ab; /* Slightly darker blue */
+  font-size: 18px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-login-cart button:hover {
+  background: #5c6bc0; /* Matches nav item color */
+  color: white; /* White text on hover */
+}
+
+.nav-login-cart img {
+  width: 28px;
+  height: auto;
+}
+
+.nav-cart-count {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -50px;
+  border-radius: 50%;
+  font-size: 14px;
+  background: #ff7043; /* Contrasting warm color for cart count */
+  color: white;
+}
